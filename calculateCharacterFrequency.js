@@ -13,6 +13,7 @@ function calculateCharacterFrequency(inputValue){
     return characterFrequency
 }
 
-const frequency  = calculateCharacterFrequency("Ashish Singh")
+//const frequency  = calculateCharacterFrequency("Ashish Singh")
+const frequency  = calculateCharacterFrequency([1,23,4,556,7,7,1,1,23,4,5,66,77,66])
 
 console.log(frequency)
